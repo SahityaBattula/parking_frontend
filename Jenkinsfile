@@ -9,7 +9,7 @@ pipeline {
             stage('SCM Checkout') {
                 agent any
                steps{
-                    git 'https://github.com/lakshmi4025/parking_frontend.git'
+                    git 'https://github.com/SahityaBattula/parking_frontend.git'
                 }
             }
             stage('Build') {
